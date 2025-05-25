@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${gabo}"></title>
+</head>
+<body>
+    <tr th:each="g: ${gabo}">
+        <td th:text="${g.fullname}"></td>
+    </tr>
+</body>
+</html>
